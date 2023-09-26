@@ -20,7 +20,7 @@ jobs:
     - name: Docker Build and Push
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: Vidu7060/CICD-LAB-3
+        image: vidu7060/cicd-lab-3
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
